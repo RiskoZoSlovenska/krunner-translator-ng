@@ -1,5 +1,6 @@
 *.kdev4 
 build/
 .idea/
+.vscode/
 cmake-build*/
 compile_commands.json

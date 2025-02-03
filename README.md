@@ -1,13 +1,17 @@
 # Translator for KDE KRunner (Plasma 6)
 
-![Screenshot Runner](../../wiki/screenshot/interface.png)
+This is a fork of https://github.com/naraesk/krunner-translator which attempts to bring krunner-translator to Plasma 6, as well as to refine its functionality. Currently [Google Translate](https://translate.google.com/), [Bing Translator](https://www.bing.com/translator), [youdao](http://fanyi.youdao.com/), and [Baidu Fanyi](https://fanyi.baidu.com/) should be supported. By clicking on the corresponding icon, the translation can be copied or read aloud.
 
-This is a plugin for Plasma 6 KRunner. It's a translator and it translates text. Currently [Google Translate](https://translate.google.com/), [Bing Translator](https://www.bing.com/translator), [youdao](http://fanyi.youdao.com/), and [Baidu Fanyi](https://fanyi.baidu.com/) are supported. By clicking on the corresponding icon, the translation can be copied or read aloud.
+See the [just-plasma-6](https://github.com/RiskoZoSlovenska/krunner-translator-ng/tree/just-plasma-6) branch for the minimal set of changes which bring the original plugin to Plasma 6.
 
-## Packages
 
-[![Logo Arch Linux](../../wiki/logos/arch_linux.png)](https://aur.archlinux.org/packages/plasma-runners-translator/)
-[![Logo Ubuntu](../../wiki/logos/ubuntu.png)](https://github.com/naraesk/krunner-translator/releases/download/v1.4.1/plasma-runners-translator_1.4.1-1.deb)
+## Current TODO list (PRs will be attempted upstream if possible)
+- [ ] Rework the project architecture
+- [ ] Set up CI to automatically build artifacts/packages
+- [ ] Rewrite the UI as QML to bring it up to modern standards
+- [ ] Allow auto-detecting languages (may change the runner syntax slightly)
+- [ ] Add more providers (e.g. LibreTranslate, DeepL, etc.)
+- [ ] Other misc. features
 
 
 ## Building from source
@@ -109,5 +113,5 @@ Alternative source language: *Spanish (es)*
 *en hola* → *es-en hola* \
 *fr house* → *en-fr house*
 
-Thanks for your feedback and kudos! If you like the runner, please vote for it [here](http://kde-apps.org/content/show.php?content=156498).
-  
+
+Thanks for your feedback and kudos! If you like the runner, please go say thanks to [the upstream](https://github.com/naraesk/krunner-translator).

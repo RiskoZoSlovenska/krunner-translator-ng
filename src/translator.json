@@ -2,8 +2,14 @@
     "KPlugin": {
         "Authors": [
             {
+                "Email": "riskozoslovenska+kde@gmail.com",
+                "Name": "RiskoZoSlovenska",
+                "Task": "Maintainer"
+            },
+            {
                 "Email": "david.baum@naraesk.eu",
-                "Name": "David Baum"
+                "Name": "David Baum",
+                "Task": "Original Author"
             }
         ],
         "Description": "Translates into any language",
